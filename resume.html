@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resume.css">
+    <title>Applicant Resume</title>
+</head>
+
+<body>
+    <div class="menu">
+        <button class="button" id="previous">Previous</button>
+        <input type="text" id="search" size="50" placeholder="search for keywords to filter the resume">
+        <button class="button" id="next">Next</button>
+    </div>
+    <div class="container box-shadow">
+        <div id="no-search-result">
+            <h1>No such results found</h1>
+        </div>
+        <div id="resultList">
+            <header id="intro">
+                <div id="employee-name" class="center heading1">
+
+                </div>
+                <p class="center">Applied for: <span id="applied-for"></span></p>
+            </header>
+            <div class="sub-container">
+                <aside id="short-bio">
+                    <div>
+                        <label class="heading3">Personal Information</label>
+                        <br>
+                        <br>
+                        <div id="info-list" class="aside-bio">
+
+                        </div>
+                        <br>
+                    </div>
+                    <div>
+                        <label class="heading3">Technical Skills</label>
+                        <br>
+                        <br>
+                        <ul id="skill-list" class="aside-bio">
+
+                        </ul>
+                        <br>
+                    </div>
+                    <div>
+                        <label class="heading3">Hobbies</label>
+                        <br>
+                        <br>
+                        <ul id="hobby-list" class="aside-bio">
+
+                        </ul>
+                    </div>
+                </aside>
+                <div class="main-content">
+                    <section>
+                        <p class="heading2">Work Experience in previous company</p>
+                        <div id="work">
+
+                        </div>
+                    </section>
+                    <section>
+                        <p class="heading2">Projects</p>
+                        <div id="projects">
+                            <span id="project-bold"></span><span id="project-description"></span>
+                        </div>
+                    </section>
+                    <section>
+                        <p class="heading2">Education</p>
+                        <div id="education">
+
+                        </div>
+                    </section>
+                    <section>
+                        <p class="heading2">Internship</p>
+                        <div id="internship">
+
+                        </div>
+                    </section>
+                    <section class="">
+                        <p class="heading2">Achievements</p>
+                        <div id="achievements">
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="resume.js" type="module"></script>
+</body>
+
+</html>
